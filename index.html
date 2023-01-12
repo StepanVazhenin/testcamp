@@ -1,0 +1,681 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head id="Head1"><meta name="SEOMetaDescription" /><link href="https://www.mayoclinic.org/" rel="canonical" /><meta name="Keywords" /><meta name="robots" content="noindex" /><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" /><title>
+	Mayo Clinic Philippines Men's Health Center
+</title>
+<link rel="stylesheet" href="../../css/tailwind.min.css" /><link rel="stylesheet" href="../../css/selectric.css" /><link rel="stylesheet" href="../../css/slick.css" /><link rel="stylesheet" href="../../css/jquery-ui.min.css" /><link rel="stylesheet" href="../../css/main.css" />
+
+    <style>/*  #sliderContainer {
+            position: relative;
+            overflow: hidden;
+        }
+
+            #sliderContainer .slider {
+                float: left;
+                position: relative;
+            }*/
+						section.form-section {
+  background-color: #003da5;
+  padding: 40px 15px;
+}
+section.form-section h3 {
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 400;
+  margin: 20px 0 35px;
+  text-transform: capitalize;
+}
+section.form-section input {
+  height: 55px;
+  width: 100%;
+  color: #a1a1a1;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  font-size: 16px;
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(0, 189, 255);
+}
+section.form-section a {
+  color: #fff;
+  text-decoration: underline;
+}
+.form-section .selectResponse {
+  display: inline-block;
+  width: 100%;
+  min-width: 100%;
+  vertical-align: middle;
+  margin: 0;
+}
+.selectResponse {
+  margin-top: 4px;
+  display: inline-block;
+  min-width: 350px;
+  vertical-align: middle;
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 600;
+}
+.selectize-control.single .selectize-input, .selectize-control.single .selectize-input input {
+  cursor: pointer;
+}
+section.form-section .selectize-input {
+  color: #fff;
+  margin-bottom: 20px;
+}
+section.form-section .selectize-input {
+  padding-left: 20px;
+}
+section.video-section .video-form input,
+section.video-section .video-form .selectize-input,
+section.form-section .selectize-input {
+  width: 100% !important;
+  height: 55px !important;
+  padding: 0 0 0 20px;
+  border-radius: 0;
+  font-size: 15px;
+  line-height: 54px;
+  text-align: left;
+  color: #a1a1a1;
+  background-color: #125971;
+  border-color: #00bdff;
+}
+.form-section .selectize-input,
+.form-section .selectize-control.single .selectize-input.input-active {
+  background: #073444;
+  border-color: rgb(0, 189, 255);
+}
+section.form-section #Submit2 {
+  font-size: 20px;
+  text-transform: none;
+  background-color: #ef9919;
+  color: #fff;
+  border: none;
+  width: 100%;
+  height: 55px;
+  margin-right: 20px;
+}
+ol,
+ul {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+section.form-section p.small-text {
+  text-align: center;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+section.form-section p {
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px 0 20px 15px;
+  font-weight: bold;
+}
+/* ================================
+  # Footer styles
+================================= */
+.ct-footer-header {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.address,
+.address .address-disclaimer {
+  font-size: 1.4rem;
+}
+.address strong {
+  font-weight: 700;
+  display: block;
+}
+.address span.footer-form {
+  color: #0079c2;
+}
+.address a {
+  font-size: 1.9rem;
+  font-weight: 600;
+  display: block;
+  padding-bottom: 20px;
+  padding-bottom: 2rem;
+}
+.address a:hover {
+  text-decoration: underline;
+}
+.address span {
+  display: block;
+  margin-top: 0.5rem;
+}
+.address .address-disclaimer {
+  font-weight: 600;
+}
+.ct-select .selectize-input {
+  line-height: .7;
+}
+.ct-footer {
+  background-color: #111;
+  color: #cbc9c9;
+  padding-top: 4rem;
+}
+.ct-footer p {
+  font-size: 1.4rem;
+  color: #f9f9f9;
+}
+.ct-footer-header {
+  color: #00bff3;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 3rem 0 2.5rem;
+}
+.ct-footer-list li a {
+  font-size: 1.4rem;
+  color: #cbc9c9;
+}
+.ct-footer-list li a:hover,
+.ct-footer .ct-post_footer a:hover {
+  text-decoration: underline;
+}
+.ct-footer-list li + li {
+  margin-top: 0.5rem;
+}
+.ct-footer .ct-post_footer {
+  background-color: #252525;
+  color: #fff;
+  padding: 2rem 0;
+  font-family: 'Arial';
+  font-size: 1.3rem;
+  margin-top: 4rem;
+}
+.ct-footer .ct-post_footer ul.list-inline {
+  font-size: 1.2rem;
+}
+.ct-footer .ct-post_footer p {
+  margin: 0;
+  margin: 0;
+  font-size: inherit;
+}
+.ct-footer .ct-post_footer ul li {
+  position: relative;
+}
+.ct-footer .ct-post_footer ul li + li {
+  padding-left: 1.7rem;
+  margin-left: 0.5rem;
+}
+.ct-footer .ct-post_footer ul li + li:before {
+  content: '';
+  position: absolute;
+  top: 20%;
+  left: 0;
+  height: 60%;
+  width: 0.1rem;
+  background: #fff;
+}
+address {
+  font-size: 1.4rem;
+}
+address b {
+  font-size: inherit;
+  text-transform: uppercase;
+}
+address span {
+  display: block;
+  margin-top: 0.5rem;
+}
+/* ================================
+  # Media Queries
+================================= */
+@media screen and (max-width: 768px) {
+  .col-xs-12 {
+    text-align: center;
+  }
+}
+    </style>
+
+    <script src="../../js/jquery-3.4.1.min.js"></script>
+
+
+
+    <script>
+        $(document).ajaxError(function (xhr, props) {
+            if (props.status === 401) {
+                location.reload();
+            }
+        });
+
+        var _dl = {   /*define data layer elements here*/
+            version: "1.0.1",
+        };
+        var _trackAnalytics = function () { };
+    </script>
+
+      <script type="text/javascript" src="../../../nexus.ensighten.com/mayo_clinic/menshealthprod/Bootstrap.js"></script>
+     <script src="../../../tagdelivery.mayoclinic.org/menshealth/prod/utag.sync.js" type="text/javascript"></script>
+
+     <script>
+         try {
+             _trackAnalytics(_dl);
+         } catch (err) {
+             //Handle errors here
+         }
+    </script>
+    <script type="text/javascript" src="https://www.youtube.com/iframe_api"></script>
+</head>
+<body>
+
+
+     <script type="text/javascript">
+         (function (a, b, c, d) {
+             a = '//tagdelivery.mayoclinic.org/menshealth/prod/utag.js ';
+             b = document; c = 'script'; d = b.createElement(c); d.src = a;
+             d.type = 'text/java' + c; d.async = true;
+             a = b.getElementsByTagName(c)[0]; a.parentNode.insertBefore(d, a)
+         })();
+     </script>
+      <form method="post" action="index_Id=14.html" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="DEF8CF0F" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="Ig+2KkZo6Qu+85kzHdGqWr7l1NTqw7lMM52ROwoObEimPaAtbdgKHc7YkCwzwovwUT8F+7wVUYVOEji4fydNIzedJG9+XvSNZA3WFnkJU4/T3gb/fm8u38T88x8Bby4N" />
+        <input type="hidden" name="ctl00$hdnUserName" id="hdnUserName" />
+        <input type="hidden" id="hdnBaseURL" value="https://menshealth.mayoclinic.org" />
+        <div class="site-wrapper">
+            <header class="site-header">
+                <div class="container py-2 lg:py-4">
+                    <div class="element-row flex justify-between items-center">
+                        <div class="element-column">
+                            <div class="element-logo"><a href="../../index.html" id="headerLogo">Mayo Clinic Philippines</a></div>
+                        </div>
+                        <div class="element-column">
+                            <div class="element-heading">
+                                <h1>Mayo Clinic Philippines: Men’s Health Center</h1>
+                            </div>
+                            <div class="nav-bars"></div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- .site-header -->
+
+            <section class="heading-strip">
+                <div class="container py-4">
+                    <div class="element-row">
+                        <div class="element-column">
+                            <div class="element-heading">
+                                <h4>Mayo Clinic Philippines: Men’s Health Center</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- .heading-strip -->
+
+            <section class="site-nav">
+                <div class="container py-20 lg:py-0">
+                    <div class="nav-close"></div>
+                    <div class="element-row flex flex-col lg:flex-row lg:justify-between lg:items-center">
+                        <div class="element-column">
+                            <nav class="element-nav nav-main">
+                                <ul id="mainMenu">
+                                    <li><a href="../../default.aspx.html" id="site-nav-home">Home</a></li>
+                                    <li><a href="../../services/default.aspx.html" id="site-nav-services">Services</a></li>
+                                    <li><a href="../../providers/default.aspx.html" id="site-nav-providers">Providers</a></li>
+                                    <li><a href="../../locations/default.aspx.html" id="site-nav-locations">Locations</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="element-column">
+                            <nav class="element-nav nav-buttons">
+                                <ul>
+                                    <li class="site-button nav-parent -myaccount">
+                                        
+                                        <!--<ul class="sub-menu">
+                                            <li><a href="../Assessments/AssessmentsList.aspx" id="site-nav-assessments">My Assessments</a></li>
+
+
+                                        </ul>-->
+                                    </li>
+
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- .site-nav -->
+
+
+            <section class="hero -inner"></section>
+
+
+
+            <!-- .hero -->
+
+
+    <section class="page-header">
+        <div class="container pt-4 pb-8">
+
+            <div class="element-breadcrumbs mb-6">
+                <ul class="flex">
+                    <li><a href="../../index.html" id="page-header-nav-home">Home</a></li>
+                    <li><a href="#" id="page-header-nav-provider-name">
+                        <span id="cphMainContent_lblHeaderBreadcrumbs">Erectile Dysfunction (ED)</span></a></li>
+                </ul>
+            </div>
+
+            <div class="element-row flex flex-col md:flex-row md:-mx-4">
+                <div class="element-image mb-12 md:mb-0 md:px-4">
+
+                       <img src="../../ViewImage.ashx_id=14&amp;type=sl.jpeg" id="cphMainContent_imgHeader" />
+
+                </div>
+                <div class="element-text md:w-9/12 md:px-4">
+                    <div class="element-name">
+                        <h4><a href="#">
+                            <span id="cphMainContent_lblHeader">Erectile Dysfunction (ED)</span></a></h4>
+                    </div>
+
+                    <div class="element-bio">
+                        <p>
+                            <span id="cphMainContent_lblOverview"><p>Erectile dysfunction (impotence) is the inability to get and keep an erection firm enough for sex. Sometimes, treating an underlying condition is enough to reverse erectile dysfunction. In other cases, medications or other direct treatments might be needed.</p>
+<p>
+	<section class="form-section">
+	  <div class="container">
+	    <div class="row">
+	      <div class="col-md-10 col-md-offset-1">
+	        <h3>Make an appointment for a doctor's consultation!</h3>
+	        <form action="" method="post" id="footer-form">
+	          <div class="row">
+	            <div class="col-md-3 video-form-fields">
+	              <div class="form-group has-error has-danger">
+	                <label for="your_email" class="sr-only">What is your email?</label> <input type="email" name="member_email" class="form-control" id="member_email2" placeholder="Email" required>
+	              </div>
+	            </div>
+	            <div class="col-md-3 video-form-fields">
+	              <div class="form-group has-error has-danger">
+	                <label for="visitor_company" class="sr-only">What is your phone number?</label> <input type="text" class="form-control" name="member_company" id="visitor_company" placeholder="Phone number" required>
+	              </div>
+	            </div>
+	            <div class="col-md-3 video-form-fields">
+	              <div class="form-group has-error has-danger">
+	                <label for="visitor_company" class="sr-only">What is your name?</label> <input type="text" class="form-control" name="member_company" id="visitor_company" placeholder="Name" required>
+	              </div>
+	            </div>
+	            <div class="col-md-3 video-form-fields">
+	              <input type="hidden" name="mode" value="saveVisitor" id="mode"> <button type="submit" id="Submit2" class="btn btn-primary btn-solodev">Get Started</button>
+	            </div>
+	          </div>
+	        </form>
+	      </div>
+	      <div class="clearfix"></div>
+	    </div>
+	  </div>
+	  <div class="clearfix"></div>
+	</section>
+</p></span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="quick-links">
+        <div class="container">
+            <div class="element-links">
+                <ul>
+                    <li><a href="#dvServices" class="active" id="quick-links-services">Services Provided</a></li>
+                    <li><a href="#dvQuestionnaires" id="quick-links-profile">Questionnaires</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <main class="site-main">
+        <div class="container py-16">
+            <div class="element-row lg:flex lg:-mx-4">
+                <div class="element-column lg:w-8/12 lg:px-4">
+                    <div id="dvServices" class="element-text mb-10">
+                        <h3 class="with-border">Services Provided</h3>
+
+                                <p>
+                                    <strong class="block mb-4">Consult</strong>
+
+                                            <a id="edConsultTypes" href="../../services/ed-consult-types/index_Id=115&amp;ContentType=3.html">
+                                                ED Consult Types</a>
+                                            <br />
+
+
+
+                                </p>
+
+                                <p>
+                                    <strong class="block mb-4">Imaging</strong>
+
+                                            <a id="penileUltrasound" href="../../services/penile-ultrasound/index_Id=73&amp;ContentType=1.html">
+                                                Penile Ultrasound</a>
+                                            <br />
+
+
+
+                                </p>
+
+                                <p>
+                                    <strong class="block mb-4">Lab</strong>
+
+                                            <a id="ceramide" href="../../services/ceramide/index_Id=156&amp;ContentType=2.html">
+                                                Ceramide</a>
+                                            <br />
+
+                                            <a id="hba1c" href="../../services/hba1c/index_Id=108&amp;ContentType=2.html">
+                                                HbA1c</a>
+                                            <br />
+
+                                            <a id="lipidPanel" href="../../services/lipid-panel/index_Id=109&amp;ContentType=2.html">
+                                                Lipid Panel</a>
+                                            <br />
+
+                                            <a id="penileErectionScore" href="../../services/penile-erection-score/index_Id=238&amp;ContentType=2.html">
+                                                Penile Erection Score</a>
+                                            <br />
+
+                                            <a id="testosterone" href="../../services/testosterone/index_Id=107&amp;ContentType=2.html">
+                                                Testosterone</a>
+                                            <br />
+
+
+
+                                </p>
+
+                                <p>
+                                    <strong class="block mb-4">Procedure</strong>
+
+                                            <a id="penileInjection" href="../../services/penile-injection/index_Id=157&amp;ContentType=4.html">
+                                                Penile injection</a>
+                                            <br />
+
+                                            <a id="plateletRichPlasmaForThePenisprp" href="../../services/platelet-rich-plasma-for-the-penis-prp/index_Id=196&amp;ContentType=4.html">
+                                                Platelet Rich Plasma for the Penis (PRP)</a>
+                                            <br />
+
+                                            <a id="shockWaveTherapyOfThePenis" href="../../services/shock-wave-therapy-of-the-penis/index_Id=194&amp;ContentType=4.html">
+                                                Shock Wave Therapy of the Penis</a>
+                                            <br />
+
+                                            <a id="stemCellTherapyForThePenis" href="../../services/stem-cell-therapy-for-the-penis/index_Id=197&amp;ContentType=4.html">
+                                                Stem Cell Therapy for the Penis</a>
+                                            <br />
+
+                                            <a id="vacuumErectionDeviceved" href="../../services/vacuum-erection-device-ved/index_Id=242&amp;ContentType=4.html">
+                                                Vacuum Erection Device (VED)</a>
+                                            <br />
+
+
+
+                                </p>
+
+                                <p>
+                                    <strong class="block mb-4">Therapy</strong>
+
+                                            <a id="edNonsurgicalTherapies" href="../../services/ed-non-surgical-therapies/index_Id=158&amp;ContentType=5.html">
+                                                ED Non-Surgical Therapies</a>
+                                            <br />
+
+                                            <a id="edSurgicalTherapy" href="../../services/ed-surgical-therapy/index_Id=159&amp;ContentType=5.html">
+                                                ED Surgical Therapy</a>
+                                            <br />
+
+                                            <a id="nonrecommendedEdTherapies" href="../../services/non-recommended-ed-therapies/index_Id=193&amp;ContentType=5.html">
+                                                Non-Recommended ED Therapies</a>
+                                            <br />
+
+                                            <a id="penileImplantipp" href="../../services/penile-implant-ipp/index_Id=160&amp;ContentType=5.html">
+                                                Penile Implant (IPP)</a>
+                                            <br />
+
+
+
+                                </p>
+
+                    </div>
+                    <div id="dvQuestionnaires" class="element-text">
+                        <h3 class="with-border">Questionnaires</h3>
+
+                                <p><a id="erectileDysfunctionAssessment" href='https://menshealth.mayoclinic.org/Assessments/Questions.aspx?QuestionnaireId=446&amp;ServiceLineId=14'>Erectile Dysfunction Assessment</a></p>
+
+                    </div>
+                </div>
+                <div class="element-column hidden lg:block lg:w-4/12 lg:px-4">
+                    <div class="element-callout callout-side">
+                        <h3 class="mb-6">Team Based Care</h3>
+                        <p>Mayo Clinic Philippines doctors ask one another for advice. They collaborate as team members. At Mayo Clinic Philippines, you don't get just one doctor, you get a care team.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- .site-main -->
+
+    <section class="callout-mobile lg:hidden">
+        <div class="container py-20">
+            <div class="element-callout callout-side text-center">
+                <h3 class="mb-6">Team Based Care</h3>
+                <p>Mayo Clinic Philippines doctors ask one another for advice. They collaborate as team members. At Mayo Clinic Philippines, you don't get just one doctor, you get a care team.</p>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+            <script src="../../js/jquery-ui.min.js"></script>
+            <script src="../../js/slick.min.js"></script>
+            <script src="../../js/jquery.selectric.min.js"></script>
+            <script src="../../js/main.js"></script>
+            <script src="../../js/knockout-3.5.1.js"></script>
+            <script type="text/javascript">
+                $(function () {
+                    /*  var curPos = 0;
+                      var slider = $('.hero');
+                      var cntImages = slider.length;
+                      var sliderWidth = $(window).width(); //slider.width();
+                      //ider();
+
+                      $(window).resize(function () {
+                          curPos = 0;
+                         //lider();
+                      });
+
+                      function Slider() {
+
+                          sliderWidth = $(window).width();
+                          //console.log("Window width: " + sliderWidth);
+                          $('#sliderWrapper').css('width', sliderWidth * cntImages);
+                          $('#sliderContainer').css('width', sliderWidth);
+                          $('#sliderContainer #sliderWrapper .hero').css('width', sliderWidth);
+                          setInterval(SlideImage, 5000);
+                      }
+
+                      function SlideImage() {
+                          if (curPos == cntImages - 1)
+                              curPos = 0;
+                          else
+                              curPos++;
+                          $('#sliderWrapper').animate({
+                              'marginLeft': sliderWidth * (-curPos)
+                          });
+
+                      } */
+
+                    $('#sliderWrapper').slick({
+
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+
+                        infinite: true,
+                        fade: true,
+                        arrows: false,
+                        autoplay: true,
+                        autoplaySpeed: 5000,
+                    });
+
+                    var current = window.location.href.toLowerCase();
+
+                    $('#mainMenu li a').each(function () {
+                        var $this = $(this);
+                        if (current.indexOf('services') !== -1) {
+                            $("#site-nav-services").addClass('active');
+                        }
+                        else if (current.indexOf('providers') !== -1) {
+                            $("#site-nav-providers").addClass('active');
+                        }
+                        else if (current.indexOf('locations') !== -1) {
+                            $("#site-nav-locations").addClass('active');
+                        }
+                        else if (current.indexOf('support') !== -1) {
+                           // $("#site-nav-locations").addClass('active');
+                        }
+                        else {
+                            $("#site-nav-home").addClass('active');
+                        }
+                    })
+                });
+            </script>
+
+
+            <div class="site-footer">
+                <div class="container py-20">
+                    <div class="element-row flex justify-center">
+                        <div class="element-column">
+                            <nav class="element-nav mb-6">
+                                <ul>
+                                    <li><a href="../../public/support.aspx.html" id="site-footer-customer-service">Customer Service</a></li>
+                                    <li><a target="_blank" href="https://www.mayoclinic.org/about-this-site/privacy-policy" id="site-footer-privacy-policy">Privacy Policy</a></li>
+                                    <li><a href="/" id="site-footer-account"> </a></li>
+                                </ul>
+                            </nav>
+                            <div class="element-copyright">
+                                <p>© 2023 Mayo Foundation for Medical Education and Research</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+<script type="text/javascript">
+//<![CDATA[
+_dl['user_id']=''; //]]>
+</script>
+</form>
+</body>
+</html>
